@@ -841,7 +841,7 @@ header{
 
 }
 
-.form-field:focus-within  {
+.form-input:focus-within  {
     border-color: var(--accent-color) ;
 }
 .form-field:focus-within .form-icon{
@@ -927,8 +927,9 @@ header{
 .agreements-input:checked + .agreements-icon{
     border-color: transparent;
     background-color: var(--accent-color);
+    fill: var(--second-accent-color);
     background-image: url("../images/full-check.svg");
-    background-size: cover;
+    background-size: contain;
     background-origin: border-box;
 
 }
